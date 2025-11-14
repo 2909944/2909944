@@ -29,9 +29,7 @@
 | Container        |                                                  |                                           |
 | Text             |                                                  |                                           |
 | Image.network    |                                                  |                                           |
-
 | Padding    |                    |                     |
-
 | Center      |                    |                     |
 
  
@@ -76,13 +74,9 @@
 |      | This marks a method as one that’s replacing a method in a parent class. | `@override` |  |  |
 
 |      | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |  |
-
 |      | Required in every widget class to describe what to show. | `build` |  |  |
-
 |      | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
-
 |      | A keyword used to pass a value to the parent widget. | `super.key` |  |  |
-
 |      | A keyword that means the value won't change and is set once. | `const` |  |  |
 
 
@@ -120,21 +114,13 @@
 |      | The result a function gives back. | `return total;` |  |  |
 
 |      | Where a variable or function can be used. | (No set syntax — concept-based) |  |  |
-
 |      | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |  |  |
-
 |      | A specific version of a class. | `Dog myDog = Dog();` |  |  |
-
 |      | A variable that belongs to a class/object. | `String name;` |  |  |
-
 |      | A function that belongs to a class. | `void bark() {}` |  |  |
-
 |      | A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
-
 |      | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
-
 |      | Changing how a built-in or inherited function behaves. | `@override` |  |  |
-
 |      | A function that does not return a value. | `void printMessage() {}` |  |  |
 
 
